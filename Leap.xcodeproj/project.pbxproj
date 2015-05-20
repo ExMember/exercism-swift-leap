@@ -13,6 +13,8 @@
 		6D03F65A1B0C6B0E009F282F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D03F6591B0C6B0E009F282F /* Images.xcassets */; };
 		6D03F65D1B0C6B0E009F282F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D03F65B1B0C6B0E009F282F /* LaunchScreen.xib */; };
 		6D03F6691B0C6B0E009F282F /* LeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03F6681B0C6B0E009F282F /* LeapTests.swift */; };
+		6D03F6731B0C6BE2009F282F /* Leap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03F6721B0C6BE2009F282F /* Leap.swift */; };
+		6D03F6741B0C6BE2009F282F /* Leap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03F6721B0C6BE2009F282F /* Leap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		6D03F6621B0C6B0E009F282F /* LeapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D03F6671B0C6B0E009F282F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D03F6681B0C6B0E009F282F /* LeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapTests.swift; sourceTree = "<group>"; };
+		6D03F6721B0C6BE2009F282F /* Leap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				6D03F6591B0C6B0E009F282F /* Images.xcassets */,
 				6D03F65B1B0C6B0E009F282F /* LaunchScreen.xib */,
 				6D03F6501B0C6B0E009F282F /* Supporting Files */,
+				6D03F6721B0C6BE2009F282F /* Leap.swift */,
 			);
 			path = Leap;
 			sourceTree = "<group>";
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D03F6731B0C6BE2009F282F /* Leap.swift in Sources */,
 				6D03F6551B0C6B0E009F282F /* ViewController.swift in Sources */,
 				6D03F6531B0C6B0E009F282F /* AppDelegate.swift in Sources */,
 			);
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D03F6691B0C6B0E009F282F /* LeapTests.swift in Sources */,
+				6D03F6741B0C6BE2009F282F /* Leap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
