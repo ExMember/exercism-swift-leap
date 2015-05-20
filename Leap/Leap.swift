@@ -13,19 +13,17 @@ class Year {
     let isLeapYear: Bool
     
     init(calendarYear:NSInteger){
-        if (isDivisableBy(calendarYear, 4)) {
-            if (isDivisableBy(calendarYear, 100)) {
-                if (isDivisableBy(calendarYear, 400)) {
-                    isLeapYear = true;
-                } else {
-                    isLeapYear = false
-                }
-            } else {
-                isLeapYear = true
-            }
-        } else {
+        if(!isDivisableBy(calendarYear, 4)) {
             isLeapYear = false
+            return
         }
+        
+        if(isDivisableBy(calendarYear, 100) && !isDivisableBy(calendarYear, 400)) {
+            isLeapYear = false
+            return
+        }
+        
+        isLeapYear = true
     }
 }
 
