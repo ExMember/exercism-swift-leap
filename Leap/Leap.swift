@@ -12,7 +12,7 @@ class Year {
  
     let isLeapYear: Bool
     
-    init(calendarYear:NSInteger){
+    init(calendarYear:NSInteger) {
         if(!isDivisableBy(calendarYear, 4)) {
             isLeapYear = false
             return
