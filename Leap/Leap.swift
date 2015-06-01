@@ -19,15 +19,13 @@ class Year {
 
         if(!isDivisableBy(calendarYear, 4)) {
             isLeapYear = false
-            return
-        }
         
-        if(isDivisableBy(calendarYear, 100) && !isDivisableBy(calendarYear, 400)) {
+        } else if(isDivisableBy(calendarYear, 100) && !isDivisableBy(calendarYear, 400)) {
             isLeapYear = false
-            return
-        }
         
-        isLeapYear = true
+        } else {
+          isLeapYear = true
+        }
     }
 }
 
